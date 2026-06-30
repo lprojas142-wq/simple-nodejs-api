@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+GET http://localhost:3000/usuarios HTTP/1.1
+
+###
+GET http://localhost:3000/usuarios/2 HTTP/1.1
+
+###
+POST http://localhost:3000/usuarios HTTP/1.1
+Content-Type: application/json
+
+{
+  "usuario": "newUser",
+  "password": "12345",
+  "rol": "user"
+}
+
+###
+PUT http://localhost:3000/usuarios/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "password": "newPassword"
+} 
+
+###
+DELETE http://localhost:3000/usuarios/3 HTTP/1.1
+=======
 GET http://localhost:3000/books HTTP/1.1
 
 ###
@@ -28,3 +55,4 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:3000/books/2 HTTP/1.1
+>>>>>>> 8f9e6c4c28129e0891fd811e686c3294af0b8566

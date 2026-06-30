@@ -1,16 +1,40 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "name": "Los 7 hábitos de la gente altamente efectiva",
-            "author": "Stephen R. Covey",
-            "year": 1989
-        },
-        {
-            "id": 3,
-            "title": "Una breve historia del tiempo",
-            "author": "Stephen Hawking",
-            "year": 1989
-        }
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "adminJhoan",
+      "password": "12345",
+      "rol": "admin"
+    },
+    {
+      "id": 2,
+      "usuario": "userJhoan",
+      "password": "12345",
+      "rol": "user"
+    },
+    {
+      "id": 3,
+      "usuario": "adminJose",
+      "password": "12345",
+      "rol": "admin"
+    },
+    {
+      "id": 4,
+      "usuario": "userJose",
+      "password": "12345",
+      "rol": "user"
+    },
+    {
+      "id": 5,
+      "usuario": "adminEduardo",
+      "password": "12345",
+      "rol": "admin"
+    },
+    {
+      "id": 6,
+      "usuario": "userEduardo",
+      "password": "12345",
+      "rol": "user"
+    }
+  ]
 }
